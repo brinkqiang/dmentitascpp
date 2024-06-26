@@ -11,7 +11,7 @@
 #include <unordered_set>
 #include <functional>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 class Group;
 

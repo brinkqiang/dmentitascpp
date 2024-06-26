@@ -7,7 +7,7 @@
 #include "ISystem.hpp"
 #include <vector>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 class SystemContainer : public IInitializeSystem, public IExecuteSystem, public IFixedExecuteSystem
 {

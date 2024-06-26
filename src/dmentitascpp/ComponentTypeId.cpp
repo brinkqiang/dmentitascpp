@@ -4,7 +4,7 @@
 
 #include "ComponentTypeId.hpp"
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 unsigned int ComponentTypeId::mCounter = 0;
 }

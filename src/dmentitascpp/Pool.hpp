@@ -9,7 +9,7 @@
 #include <unordered_map>
 #include <map>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 class ISystem;
 

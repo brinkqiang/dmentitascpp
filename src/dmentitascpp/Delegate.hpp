@@ -13,7 +13,7 @@
 #include <memory>
 #include <functional>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 template<typename>
 class Delegate;

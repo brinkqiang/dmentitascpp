@@ -9,7 +9,7 @@
 #include <stack>
 #include <map>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 class Entity;
 typedef std::shared_ptr<Entity> EntityPtr;
@@ -139,13 +139,13 @@ bool Entity::Has() const
 namespace std
 {
 template <>
-struct hash<weak_ptr<EntitasPP::Entity>>
+struct hash<weak_ptr<dmentitascpp::Entity>>
 {
-	std::size_t operator()(const weak_ptr<EntitasPP::Entity>& ptr) const
+	std::size_t operator()(const weak_ptr<dmentitascpp::Entity>& ptr) const
 	{
 		return hash<unsigned int>()(ptr.lock()->GetUuid());
 	}
 };
 
-bool operator ==(weak_ptr<EntitasPP::Entity> left, weak_ptr<EntitasPP::Entity> right);
+bool operator ==(weak_ptr<dmentitascpp::Entity> left, weak_ptr<dmentitascpp::Entity> right);
 }

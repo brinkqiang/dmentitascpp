@@ -8,7 +8,7 @@
 #include "ReactiveSystem.hpp"
 #include <algorithm>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 Pool::Pool(const unsigned int startCreationIndex)
 {

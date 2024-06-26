@@ -6,7 +6,7 @@
 #include "Group.hpp"
 #include <functional>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 GroupObserver::GroupObserver(std::weak_ptr<Group> group, const GroupEventType eventType)
 {

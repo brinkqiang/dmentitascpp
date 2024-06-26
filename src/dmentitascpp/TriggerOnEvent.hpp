@@ -7,9 +7,9 @@
 #include "Matcher.hpp"
 #include "GroupEventType.hpp"
 
-namespace EntitasPP
+namespace dmentitascpp
 {
-struct TriggerOnEvent
+class TriggerOnEvent
 {
 	public:
 		TriggerOnEvent(const Matcher trigger, const GroupEventType eventType)

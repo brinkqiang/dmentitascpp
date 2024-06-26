@@ -7,7 +7,7 @@
 #include "GroupObserver.hpp"
 #include "ISystem.hpp"
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 class ReactiveSystem : public IExecuteSystem
 {

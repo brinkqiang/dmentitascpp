@@ -4,7 +4,7 @@
 
 #include "Entity.hpp"
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 Entity::Entity(std::map<ComponentId, std::stack<IComponent*>>* componentPools)
 {
@@ -197,7 +197,7 @@ void Entity::Replace(const ComponentId index, IComponent* replacement)
 
 namespace std
 {
-bool operator ==(weak_ptr<EntitasPP::Entity> left, weak_ptr<EntitasPP::Entity> right)
+bool operator ==(weak_ptr<dmentitascpp::Entity> left, weak_ptr<dmentitascpp::Entity> right)
 {
 	return left.lock().get() == right.lock().get();
 }

@@ -6,7 +6,7 @@
 #include "TriggerOnEvent.hpp"
 #include <algorithm>
 
-namespace EntitasPP
+namespace dmentitascpp
 {
 auto Matcher::AllOf(const ComponentIdList indices) -> const Matcher
 {

@@ -8,7 +8,7 @@
 #include <iostream>
 #include <string>
 
-using namespace EntitasPP;
+using namespace dmentitascpp;
 
 class DemoComponent : public IComponent {
 	public:
