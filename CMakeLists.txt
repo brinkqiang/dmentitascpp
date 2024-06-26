@@ -16,14 +16,8 @@ INCLUDE(cmake/ModuleCompilerDefenses.cmake)
 
 ModuleSetCompileOptions()
 
-set(EXECUTABLE_NAME main)
-file(GLOB_RECURSE ENTITAS_SRC EntitasPP/*.*pp)
+LibImport("dmentitascpp" "src")
 
-add_executable(${EXECUTABLE_NAME}
-	main.cpp
-	${ENTITAS_SRC}
-)
-
-# -------------------------------------------------------------------------------------------------
-
-set(CONFIGURED_ONCE TRUE CACHE INTERNAL "Flag - CMake has configured at least once")
+if (PROJECT_IS_TOP_LEVEL) # need cmake 3.21+
+    ExeImport("test" "dmentitascpp")
+endif(PROJECT_IS_TOP_LEVEL)

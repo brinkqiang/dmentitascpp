@@ -2,9 +2,9 @@
 // License: MIT License
 // MIT License web page: https://opensource.org/licenses/MIT
 
-#include "EntitasPP/SystemContainer.hpp"
-#include "EntitasPP/Matcher.hpp"
-#include "EntitasPP/Pool.hpp"
+#include "dmentitascpp/SystemContainer.hpp"
+#include "dmentitascpp/Matcher.hpp"
+#include "dmentitascpp/Pool.hpp"
 #include <iostream>
 #include <string>
 
